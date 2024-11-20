@@ -223,3 +223,114 @@ form p a{
   color: #33A3AA;
 
 }
+
+
+/*Modal add planta*/
+
+/* clases
+
+  container-modal
+  container-box-modal
+  modal-info
+
+*/
+
+.container-modal{
+
+  width: 100%;
+  height: 900px;
+  background: rgba(0, 0, 0, 0.202);
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.container-box-modal{
+  display: flex;
+      flex-direction: row;
+      justify-content: center;
+      font-weight: bold;
+
+}
+
+.modal-info{
+  padding: 20px 30px 27px 30px;
+  background: #ffff;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 14px;
+}
+.addPlant{
+  width: 380px;
+  height: 290px;
+}
+
+.editPlant{
+  width: 720px;
+  height: 360px;
+}
+
+.modal-info p{
+  line-height: 21px;
+  margin: 0;
+}
+
+.modal-input{
+  width: 100%;
+  display: flex;
+  color: #BABEC5;
+  flex-direction: column;
+}
+
+.modal-input label{
+  margin-bottom: 5px;
+}
+
+.modal-input input, .modal-input select{
+  height: 42px;
+  border-radius: 8px;
+  border: 1px solid #BABEC5;
+  color: #BABEC5;
+  padding:0px 20px;
+}
+
+.modal-button{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.modal-button button{
+  width: 100px;
+  height: 36px;
+  margin: 0px 10px;
+  border-radius: 5px;
+
+}
+
+.modal-button .cancel{
+  background: none;
+  border: 2px solid #33A3AA;
+  color: #33A3AA;
+}
+
+.modal-button .create{
+  color: #FFFF;
+  border: none;
+  background: #33A3AA;
+}
+
+.combo-input{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.combo-input .modal-input{
+  margin: 0px 10px
+}
